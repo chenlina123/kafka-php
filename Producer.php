@@ -10,7 +10,7 @@ require './vendor/autoload.php';
                                                                                                                                                                  
 $config = \Kafka\ProducerConfig::getInstance();                                                                                                                  
 $config->setMetadataRefreshIntervalMs(10000);                                                                                                                    
-$config->setMetadataBrokerList('kafka0628:9092');                                                                                                                
+$config->setMetadataBrokerList('kafka0628.akon4yk9.svc.cluster.local:9092');                                                                                                                
 $config->setBrokerVersion('0.10.1.0');                                                                                                                           
 $config->setRequiredAck(1);                                                                                                                                      
 $config->setIsAsyn(false);                                                                                                                                       
