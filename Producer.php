@@ -18,8 +18,8 @@ $config->setProduceInterval(500);
 $producer = new \Kafka\Producer(function() {                                                                                                                     
         return array(                                                                                                                                            
                 array(                                                                                                                                           
-                        'topic' => 'test0705',                                                                                                                 
-                        'value' => 'test....message.',                                                                                                           
+                        'topic' => 'test0706',                                                                                                                 
+                        'value' => '2016-05-01 00:00:05,77.373,10.89,6.769,7.698,-0.52,-0.69,-0.48,0.0,-0.01,0.0,15.9,15.9,16.0,675.2,980.172,6557.186,-0.012,0.016,0.0,0.0,0.0,2100.0,29,38,503,284,86,1',                                                                                                           
                         'key' => '',  
                 ),                                                                                                                                               
         );                                                                                                                                                       
